@@ -1,0 +1,3 @@
+ipconfig getpacket en0 | grep yiaddr | awk '{print$3}'
+# Le protocole DHCP permet d'attribuer automatiquement une adresse IP aux machines qui le demande
+# yiaddr = your ip address, et correspond donc bien à l'adresse donné par le serveur dhcp

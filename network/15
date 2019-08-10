@@ -1,0 +1,2 @@
+# Il faudrait ajouter "46.19.122.85 intra.42.fr" directement dans le dossier /etc/hosts (le fichier hosts est en read only pour nous et on ne peut pas modifier les droits)
+# De manière générique il faut écrire : Adresse_IP Nom_domaine

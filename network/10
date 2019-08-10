@@ -1,0 +1,4 @@
+traceroute slash16.org
+
+# traceroute affiche le trajet d'un paquet envoyé ici vers slash16.org
+# * * * signifie un timeout (souvent la fin)
