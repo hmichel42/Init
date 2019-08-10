@@ -1,0 +1,3 @@
+ifconfig -l
+
+# -l affichage en ligne des interfaces de la machine sans détails.

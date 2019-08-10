@@ -1,0 +1,4 @@
+/etc/resolv.conf
+
+# on peut voir le nom du domaine/sous-domaine
+# mais aussi l'IP dur serveur DNS utilisé

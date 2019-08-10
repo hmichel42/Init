@@ -1,0 +1,5 @@
+netstat -rn | grep default -m 1 | awk '/default/{print $2}'
+
+# netstat affiche les connexions sur le serveur actuel, ports utilisés...
+# l'option -r permet de visualiser la table de routage
+# l'option -n permet un affichage numérique des adresses (plus rapide)

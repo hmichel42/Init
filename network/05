@@ -1,0 +1,5 @@
+dig slash16.org | grep SERVER | cut -d "(" -f 2 | cut -d ")" -f 1
+
+# dig fait une requête DNS sur splash16.org
+# on récupère l'IP indiquée par SERVER
+# on cut les parenthèses parce qu'on est propre et beau
